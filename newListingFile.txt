@@ -1,0 +1,63 @@
+1        program test (input, output);
+2          var a : integer;
+3          var b : real;
+4          var c : array [1..2] of integer;
+5        
+6         
+7        
+8          procedure proc1(x:integer; y:real; 
+9                          z:array [1..2] of integer; q: real);
+10            var d: integer;
+11            begin
+12              a:= 2;
+13              z[a] := 4;
+14              c[3] := 3
+15             end;
+16        
+17         
+18        
+19           procedure proc2(x: integer; y: integer);
+20             var e: real;
+21        
+22         
+23        
+24             procedure proc3(n: integer; z: real);
+25               var e: integer;
+26        
+27         
+28        
+29               procedure proc4(a: integer; z: array [1..3] of real);
+30                 var x: integer;
+31                 begin
+32                   a:= e 
+33                 end;
+34        
+35         
+36        
+37               begin
+38                 a:= e;
+39                 e:= c[e]
+40               end;
+41        
+42         
+43        
+44             begin
+45               call proc1(x, e, c, b);
+46               call proc3(c[1], e);
+47               e := e + 4.44;
+48               a:= (a mod y) div x;
+49               while ((a >= 4) and ((b <= e) 
+50                               or (not (a = c[a])))) do
+51                 begin
+52                   a:= c[a] + 1
+53                 end
+54             end;
+55        
+56         
+57        
+58        begin
+59          call proc2(c[4], c[5]);
+60          call proc2(c[4],2);
+61          if (a < 2) then a:= 1 else a := a + 2;
+62          if (b > 4.2) then a := c[a]
+63        end.
